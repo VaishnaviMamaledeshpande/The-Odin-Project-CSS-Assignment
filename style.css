@@ -1,0 +1,217 @@
+/* Make html and body full height */
+html,body{
+    height: 100%;
+    margin:0; 
+    background-color: black;
+}
+.wrapper{
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 1rem; /* mobile padding */
+    font-family: 'Roboto', sans-serif;
+}
+
+.site_header{
+    background-color: #1F2937;
+    /* check font family */
+    font-family: 'Roboto', sans-serif;
+    color:#E5E7EB;
+ 
+}
+/* logo and links */
+
+.logo{
+    color:#FAF9F8;
+    font-size: 24px;
+    font-weight:bolder;
+    font-style:normal;
+    padding-left: 15rem;
+    
+}
+
+.section1{
+    display:flex;
+    justify-content: space-between;;
+    align-items: center;
+    gap: 20px;  
+    margin:0; 
+   
+}
+
+ul{
+
+    list-style-type: none;
+    display:flex;
+    gap:40px;
+    padding:10px;
+    color:#E5E7Eb;
+    padding-right: 15rem;
+}
+a{
+    text-decoration: none;
+    color:#E5E7Eb;
+    font-size: 18px;
+}
+
+/* Description  and img */
+.section2{
+    display:flex;
+    /* flex:1; */
+    justify-content:space-between;
+    align-items: center;  
+    /* padding: 20px; */
+    gap: 20px;
+    margin:2rem 0;
+    padding-left: 15rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    
+}
+.description{
+
+    width:400px;
+}
+
+.maintext{
+    font-size: 48px;
+    margin-bottom: 0;
+    
+    
+}
+.main_image{
+    padding-right: 4rem;
+    background-color: grey;
+    color:black;
+    text-align: center;
+    padding: 8rem;
+    margin-right: 20rem;
+}
+
+
+button{
+    background-color: #3882F6;
+    color:white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius:8px;
+    margin-top: 10px;
+    text-align: center;
+    width: 130px;
+    height: 40px;
+}
+
+
+
+/* content and images */
+.content{
+    display:flex;
+    flex:1;
+    flex-direction: column;
+    color:#1F2937;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    
+}
+.body_main{
+    font-size: 36px;
+    text-align: center;
+    color:#1F2937;
+    font-weight:900;
+}
+.image_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:55px;
+    margin-bottom: 10rem;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    border: 4px solid #3882F6;
+    padding: 20px;
+    text-align: center;
+}
+.image_des{
+    width:130px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.quote{
+    background-color: #E5E7Eb;
+  padding: 3rem 1rem;
+  width: 100%;           /* Ensure full width */
+  box-sizing: border-box; /* So padding doesn't add to width */
+  /* Remove flex related styles if any */
+  display: block;         /* Or just remove 'display:flex' */
+  text-align: center; 
+  
+   
+}
+.quoteline{
+  
+  max-width: 800px;      /* limit text width */
+  margin: 0 auto;        /* center horizontally */
+  text-align: center;    /* center text inside the block */
+  line-height: 1.5;
+  font-size: 32px;
+  font-weight: 300;
+  color: #1F2937;
+}
+p strong {
+  font-weight: bold !important;
+}
+.action{
+    display: flex;
+    background-color:#3882F6 ;
+    width:70rem;
+    height:10rem;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+    margin: 7rem;
+    gap:20px;
+}
+.call{
+    display: flex;
+    flex-direction: column;
+    color:whitesmoke;
+    font-weight: 900;
+    font-size: 32px;
+    margin-left: 10rem;
+    padding:0;
+}
+.sign{
+    color:whitesmoke;
+    font-size: 18px;
+    font-style: normal;
+    margin: 0;
+    
+
+}
+.down_sign{
+  margin-right: 10rem;
+  border-color: white;
+}
+p{
+    margin:0;
+}
+/* footer */
+footer{
+    background-color: #1F2937;
+    display:flex;
+    justify-content: center;
+    color:#E5E7Eb;
+    font-size: 18px;
+    
+    align-items: center;
+    padding: 1.5rem 0;
+    
+}
